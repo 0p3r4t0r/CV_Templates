@@ -1,0 +1,108 @@
+#Produced by 0p3r4t0r
+#Intended for use with CV_Templates
+#
+#	08/11/2016
+#
+############# Mail Icon #############
+set terminal pngcairo size 125,100 background rgb "black"
+set xrange[-1:1]
+set yrange[-1:1] 
+set lmargin 0
+set rmargin 0
+set tmargin 0
+set bmargin 0
+
+unset key
+
+
+#Define Some Triangles Arranged like an Envelope and Plot
+set style fill empty border rgb "white"
+set object 1 polygon from -1,1 to 1,1 to 0,0 to -1,1 fs solid fc rgb "black" lw 5 front
+set object 2 polygon from -1,-1 to 1,-1 to 0,1 to -1,-1 fs solid fc rgb "black" lw 5 back
+
+set output "mail_CVicon.png"
+plot 1/0
+reset
+
+
+
+#Define Some Rectangles Shapes Like a Cell Phone and Plot
+set terminal pngcairo size 100,125 background rgb "black"
+set xrange[-4:4]
+set yrange[-4:4]
+set lmargin 0
+set rmargin 0
+set tmargin 0
+set bmargin 0
+
+unset key
+
+set style rect fs empty border lc rgb "white"
+set object 1 rect from -3,3.5 to 3,1 lw 10
+set object 2 rect from -3,0 to 3,-3  lw 5
+
+line_width=3
+set object 3 rect from -3,0 to -1,-1 lw line_width
+set object 4 rect from -1,0 to 1,-1 lw line_width
+set object 5 rect from 1,0 to 3,-1 lw line_width
+
+set object 6 rect from -3,-1 to -1,-2 lw line_width
+set object 7 rect from -1,-1 to 1,-2 lw line_width
+set object 8 rect from 1,-1 to 3,-2 lw line_width
+
+set object 9 rect from -3,-2 to -1,-3 lw line_width
+set object 10 rect from -1,-2 to 1,-3 lw line_width
+set object 11 rect from 1,-2 to 3,-3 lw line_width
+
+set output "phone_CVicon.png"
+plot 1/0
+reset
+
+#And This Little Piggy Used Gnuplot
+set terminal pngcairo size 125,125 background rgb "white"
+set xrange[-4:4]
+set yrange[-4:4]
+set lmargin 0
+set rmargin 0
+set tmargin 0
+set bmargin 0
+
+unset tics
+unset key
+unset border
+
+set style rect fs solid fc rgb "black"
+set object 1 rect from 1,3.5 to 3,0.5 lw 5
+set object 2 rect from -3.0,0 to 3.0,-3.0 lw 5
+
+set style fill solid
+set object 9 polygon from -3.9,0 to 0,2.5 to 3.9,0 to -3.9,0 lw 5
+
+set output "house_CVicon.png"
+plot 1/0
+reset
+
+#World Wide Web Icon
+set terminal pngcairo size 125,125 background rgb "white"
+set xrange[-1:1]
+set yrange[-1:1]
+set lmargin 0
+set rmargin 0
+set tmargin 0
+set bmargin 0
+
+unset tics
+unset key
+unset border
+
+set object 1 circle at 0,0 size .95
+set object 2 circle at 0,0 size .85
+set object 3 circle at 0,0 size .75
+set object 4 circle at 0,0 size .65
+
+set style fill solid   
+set object 5 circle at 0,0 size .4 fc rgb "black" 
+
+set output "www_CVicon.png"
+plot 1/0
+  
