@@ -19,7 +19,7 @@ A Step-by-Step Guide
 
 3. Open Texmaker, either by searching for it in applications, or by typing texmaker into your terminal.  On the toolbar at the top click the drop-down menu next to where it says Quick Build and select XeLaTex as in the picture below.  Now you're ready to write and compile a document.
 
-	![Select XeTex](./JPLatex.pics/JPLatex3.png)
+	![Select XeTex](./JPLatexPics/JPLatex3.png)
 
 4. First, we'll need to see what font styles are available on your system. 
 
@@ -27,7 +27,7 @@ A Step-by-Step Guide
 
 	The output should look something like this.
 
-	![fc-list output](./JPLatex.pics/JPLatex4.png) 
+	![fc-list output](./JPLatexPics/JPLatex4.png) 
 
 	What you see is a list of long paths with .ttf files at the end.  These files contain the fonts you can use.
 
