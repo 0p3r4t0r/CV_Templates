@@ -14,7 +14,8 @@
 \RequirePackage[
 tmargin=2.5cm,bmargin=2.5cm					%Document margins
 ]{geometry}
-\RequirePackage{graphicx}					%Insert Images
+\RequirePackage{enumitem}
+\RequirePackage{graphicx}
 \graphicspath{ {../graphics/} }
 %---------------fonts-----------------%
 %Come back to this one
@@ -42,18 +43,20 @@ tmargin=2.5cm,bmargin=2.5cm					%Document margins
 
 
 %---------------Sidebar---------------%
-\newenvironment{sidebar}[1][]
+\newenvironment{sidebar}[2][Skills]
 {%
 	\renewcommand{\section}[1]{
-		\vspace{0.35cm}
-		\hfill\textbf{\large{##1}}
+		\vspace{0.3cm}
+		\textbf{\large{##1}}
 		\break
 	}
-	\begin{textblock}{4.0}(1.0, 3.0)
-		\begin{flushright}
-			\centering{\textbf{\Large{#1}}}
+	\begin{textblock}{4.5}(1.0, 2.85)
+		\begin{flushleft}
+			\textbf{\Large{#1}}
+			\hrule height 1pt width 5.5cm
+			\fontsize{#2}{#2}\selectfont
 	}{%
-		\end{flushright}
+		\end{flushleft}
 	\end{textblock}	
 }
 
@@ -63,15 +66,19 @@ tmargin=2.5cm,bmargin=2.5cm					%Document margins
 	\renewcommand{\section}[1]{
 		\vspace{0.5cm}
 		\textbf{\Large{##1}}
-		\rule{\textwidth}{1pt}
+		\vspace{0.05cm}
+		\hrule height 1.5pt
+		\vspace{0.15cm}
 	}
 	\renewcommand{\subsection}[2]{
-		\vspace{0.25cm}
-		##1 \hfill ##2 \hrule
-		\vspace{0.15cm}
+		\vspace{0.35cm}
+		\textbf{##1} \hfill \fontsize{6pt}{6pt}\selectfont{##2} \hrule width \textwidth
+		\vspace{0.1cm}
+		\fontsize{10.5pt}{10.5pt}\selectfont
+		\renewcommand\labelitemi{{\boldmath$\cdot$}}
 		\break
-	}
-	\begin{textblock}{8.5}(5.5, 2.5)
+	}	
+	\begin{textblock}{9.0}(6.0, 3.0)
 		\begin{flushleft}
 	}{%
 		\end{flushleft}

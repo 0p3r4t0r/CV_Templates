@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.20)  15 AUG 2016 16:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.23)  25 SEP 2016 12:36
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **easyCV.tex
 (./easyCV.tex
@@ -76,6 +76,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen118
 \Gm@dimlist=\toks16
 )
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip43
+\enit@outerparindent=\dimen119
+\enit@toks=\toks17
+\enit@inbox=\box28
+\enitdp@description=\count90
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -99,26 +107,26 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count90
+\Gread@gobject=\count91
 ))
-\Gin@req@height=\dimen119
-\Gin@req@width=\dimen120
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
 ))
 (./easyCV.aux)
 \openout1 = `easyCV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
  ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -156,17 +164,17 @@ LaTeX Font Info:    ... okay on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
-\scratchdimen=\dimen121
-\scratchbox=\box28
-\nofMPsegments=\count92
-\nofMParguments=\count93
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count94
-\MPscratchDim=\dimen122
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count92
+\scratchdimen=\dimen122
+\scratchbox=\box29
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen123
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
+\everyMPtoPDFconversion=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -215,107 +223,104 @@ e
 File: ../graphics/mail_CVicon.png Graphic file (type png)
 
 <use ../graphics/mail_CVicon.png>
-Package pdftex.def Info: ../graphics/mail_CVicon.png used on input line 5.
+Package pdftex.def Info: ../graphics/mail_CVicon.png used on input line 7.
 (pdftex.def)             Requested size: 10.66565pt x 8.53252pt.
 
 <../graphics/phone_CVicon.png, id=2, 100.375pt x 125.46875pt>
 File: ../graphics/phone_CVicon.png Graphic file (type png)
 
 <use ../graphics/phone_CVicon.png>
-Package pdftex.def Info: ../graphics/phone_CVicon.png used on input line 6.
+Package pdftex.def Info: ../graphics/phone_CVicon.png used on input line 8.
 (pdftex.def)             Requested size: 7.52779pt x 9.40974pt.
 
 <../graphics/house_CVicon.png, id=3, 125.46875pt x 125.46875pt>
 File: ../graphics/house_CVicon.png Graphic file (type png)
 
 <use ../graphics/house_CVicon.png>
-Package pdftex.def Info: ../graphics/house_CVicon.png used on input line 7.
+Package pdftex.def Info: ../graphics/house_CVicon.png used on input line 9.
 (pdftex.def)             Requested size: 10.66565pt x 10.66565pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 7.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 7.
 
 <../graphics/www_CVicon.png, id=4, 125.46875pt x 125.46875pt>
 File: ../graphics/www_CVicon.png Graphic file (type png)
 
 <use ../graphics/www_CVicon.png>
-Package pdftex.def Info: ../graphics/www_CVicon.png used on input line 8.
+Package pdftex.def Info: ../graphics/www_CVicon.png used on input line 10.
 (pdftex.def)             Requested size: 10.66565pt x 10.66565pt.
 
-<../graphics/PieChart_CV.png, id=5, 1003.75pt x 1003.75pt>
-File: ../graphics/PieChart_CV.png Graphic file (type png)
 
-<use ../graphics/PieChart_CV.png>
-Package pdftex.def Info: ../graphics/PieChart_CV.png used on input line 42.
-(pdftex.def)             Requested size: 150.556pt x 150.556pt.
-
-Overfull \hbox (3.6565pt too wide) in paragraph at lines 46--50
-\OT1/cmr/m/n/10 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
- []
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 12.
 
 
-Overfull \hbox (3.6565pt too wide) in paragraph at lines 46--50
-\OT1/cmr/m/n/10 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
- []
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 14.
 
 
-Overfull \hbox (3.6565pt too wide) in paragraph at lines 46--50
-\OT1/cmr/m/n/10 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  
- []
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 26.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 31.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 31.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 31.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 32.
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 32.
 
 
-Overfull \hbox (2.12856pt too wide) in paragraph at lines 59--64
-[]\OT1/cmr/m/n/10 DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD 
- []
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 32.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.5> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.34996> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.25> on input line 32.
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 49.
 
 
-Overfull \hbox (3.6565pt too wide) in paragraph at lines 76--86
-\OT1/cmr/m/n/10 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 
- []
-
-
-Overfull \hbox (9.76746pt too wide) in paragraph at lines 76--86
-\OT1/cmr/m/n/10 DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD 
- []
-
-
-Overfull \hbox (15.87909pt too wide) in paragraph at lines 76--86
-\OT1/cmr/m/n/10 OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO 
- []
-
-
-Overfull \hbox (15.87909pt too wide) in paragraph at lines 76--86
-\OT1/cmr/m/n/10 OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO 
- []
-
-
-Overfull \hbox (15.87909pt too wide) in paragraph at lines 76--86
-\OT1/cmr/m/n/10 KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK 
- []
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 49.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../graphics/mail_CVicon.pn
 g> <../graphics/phone_CVicon.png> <../graphics/house_CVicon.png> <../graphics/w
-ww_CVicon.png> <../graphics/PieChart_CV.png>] (./easyCV.aux) ) 
+ww_CVicon.png>] (./easyCV.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.45pt have occurred.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2073 strings out of 494985
- 30228 string characters out of 6180356
- 93074 words of memory out of 5000000
- 5282 multiletter control sequences out of 15000+600000
- 5168 words of font info for 19 fonts, out of 8000000 for 9000
+ 2419 strings out of 494985
+ 35812 string characters out of 6180356
+ 103285 words of memory out of 5000000
+ 5605 multiletter control sequences out of 15000+600000
+ 12531 words of font info for 43 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 37i,6n,23p,250b,224s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr17.pfb>
-Output written on easyCV.pdf (1 page, 112526 bytes).
+ 37i,5n,23p,278b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb>
+Output written on easyCV.pdf (1 page, 135749 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
