@@ -17,16 +17,17 @@ tmargin=2.5cm,bmargin=2.5cm					%Document margins
 \RequirePackage{enumitem}
 \RequirePackage{graphicx}
 \graphicspath{ {../graphics/} }
-%---------------fonts-----------------%
-%Come back to this one
 
-%---------------Header----------------%
+
+
+%-----------Header/Footer-------------%
 \newcommand{\name}[2]{
 	\center{
 		\Huge{#1} \Huge\textbf{#2}
 		\break\break
 	}
 }
+
 	%-----SubHeader-----%
 \newcommand{\mail}[1]{
 	\includegraphics[scale=0.085]{mail_CVicon.png}~#1 
@@ -40,6 +41,14 @@ tmargin=2.5cm,bmargin=2.5cm					%Document margins
 \newcommand{\website}[1]{
         \includegraphics[scale=0.085]{www_CVicon.png}~#1
 }
+
+	%--------Footer-----%
+\newcommand{\footer}[1][\today]{
+	\begin{textblock}{5.0}(10.0, 15.5)
+	\hfill #1
+	\end{textblock}
+}
+
 
 
 %---------------Sidebar---------------%
