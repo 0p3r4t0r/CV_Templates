@@ -63,15 +63,15 @@ tmargin=2.5cm,bmargin=2.5cm					%Document margins
 %----------------Main-----------------%
 \newenvironment{main}
 {%
-	\renewcommand{\section}[1]{
+	\renewcommand{\section}[2][10.5pt]{
+		\def\@mainfontsize{##1}
 		\vspace{0.5cm}
-		\textbf{\Large{##1}}
+		\textbf{\Large{##2}}
 		\vspace{0.05cm}
 		\hrule height 1.5pt
 		\vspace{0.15cm}
 
 	}
-	\def\mainfontsize##1{\def\@mainfontsize{##1}}
 	\renewcommand{\subsection}[2]{
 		\vspace{0.35cm}
 		\textbf{##1} \hfill \fontsize{6pt}{6pt}\selectfont{##2} \hrule width \textwidth
