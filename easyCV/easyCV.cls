@@ -54,7 +54,7 @@ tmargin=2.5cm,bmargin=2.5cm					%Document margins
 		\begin{flushleft}
 			\textbf{\Large{#1}}
 			\hrule height 1pt width 5.5cm
-			\fontsize{#2}{#2}\selectfont
+			\fontsize{#2}{#2}
 	}{%
 		\end{flushleft}
 	\end{textblock}	
@@ -72,10 +72,9 @@ tmargin=2.5cm,bmargin=2.5cm					%Document margins
 	}
 	\renewcommand{\subsection}[2]{
 		\vspace{0.35cm}
-		\textbf{##1} \hfill \fontsize{6pt}{6pt}\selectfont{##2} \hrule width \textwidth
+		\textbf{##1} \hfill \fontsize{6pt}{6pt}{##2} \hrule width \textwidth
 		\vspace{0.1cm}
-		\fontsize{10.5pt}{10.5pt}\selectfont
-		\renewcommand\labelitemi{{\boldmath$\cdot$}}
+		\fontsize{10.5pt}{10.5pt}
 		\break
 	}	
 	\begin{textblock}{9.0}(6.0, 3.0)
@@ -85,6 +84,14 @@ tmargin=2.5cm,bmargin=2.5cm					%Document margins
 	\end{textblock}
 }
 
+%-----------List Entry Type-----------%
+\newenvironment{mainlist}
+{%
+	\renewcommand\labelitemi{{\boldmath$\cdot$}}
+	\begin{itemize}[topsep=0ex,leftmargin=*,itemsep=0.1cm]
+}{%
+	\end{itemize}
+}
 
 %----------------Images---------------%
 %Graphics path defined in package section
