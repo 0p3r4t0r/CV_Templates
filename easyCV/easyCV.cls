@@ -54,7 +54,7 @@ tmargin=2.5cm,bmargin=2.5cm					%Document margins
 		\begin{flushleft}
 			\textbf{\Large{#1}}
 			\hrule height 1pt width 5.5cm
-			\fontsize{#2}{#2}
+			\fontsize{#2}{#2}\selectfont
 	}{%
 		\end{flushleft}
 	\end{textblock}	
@@ -69,12 +69,14 @@ tmargin=2.5cm,bmargin=2.5cm					%Document margins
 		\vspace{0.05cm}
 		\hrule height 1.5pt
 		\vspace{0.15cm}
+
 	}
+	\def\mainfontsize##1{\def\@mainfontsize{##1}}
 	\renewcommand{\subsection}[2]{
 		\vspace{0.35cm}
-		\textbf{##1} \hfill \fontsize{6pt}{6pt}{##2} \hrule width \textwidth
+		\textbf{##1} \hfill \fontsize{6pt}{6pt}\selectfont{##2} \hrule width \textwidth
 		\vspace{0.1cm}
-		\fontsize{10.5pt}{10.5pt}
+		\fontsize{\@mainfontsize}{\@mainfontsize}\selectfont
 		\break
 	}	
 	\begin{textblock}{9.0}(6.0, 3.0)
