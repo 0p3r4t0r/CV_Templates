@@ -16,7 +16,7 @@ tmargin=2.5cm,bmargin=2.5cm					%Document margins
 ]{geometry}
 \RequirePackage{enumitem}
 \RequirePackage{graphicx}
-\graphicspath{ {../graphics/} }
+\graphicspath{ {./easy.icons/} }
 
 
 
