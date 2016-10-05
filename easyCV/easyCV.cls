@@ -7,7 +7,7 @@
 %------------Latex Basics-------------%
 \LoadClassWithOptions{article}
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{easyCV}[2016/07/28]
+\ProvidesClass{easyCV}[09/28/2016]
 
 %---------Required Packages-----------%
 \RequirePackage[absolute,overlay]{textpos}			%Defines the textblock environment
@@ -70,12 +70,12 @@ tmargin=2.5cm,bmargin=2.5cm					%Document margins
 }
 
 %----------------Main-----------------%
-\newenvironment{main}
+\newenvironment{main}[1][10.5pt]
 {%
-	\renewcommand{\section}[2][10.5pt]{
-		\def\@mainfontsize{##1}
+	\def\@mainfontsize{#1}
+	\renewcommand{\section}[1]{
 		\vspace{0.5cm}
-		\textbf{\Large{##2}}
+		\textbf{\Large{##1}}
 		\vspace{0.05cm}
 		\hrule height 1.5pt
 		\vspace{0.15cm}
