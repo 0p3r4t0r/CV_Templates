@@ -78,12 +78,14 @@ This cover letter is also intended to be easy to use, and is formatted like the 
 ### Header
 -------------------------
 
-The name command remains unchanged, but the other commands are replaced with two new ones.  As in the CV header, the commands are self-explanatory.
+The name command is similar to the in the CV, but the other commands are replaced with two new ones.  As in the CV header, the commands are self-explanatory.
 
-    \name{First Name}{Last Name}
+    \name[Job Title]{First Name}{Last Name}
     \from{Your Street Address}
     \to{Your Employer's Name/Address}
     
+The change made to \name allows an additional optional argument.  Job Title will be displayed below your name in the header.
+
 Again it is possible to nest commands within \from or \to.  In the example cover letter you can see I have used \break to place my address of multiple lines.
 
 
