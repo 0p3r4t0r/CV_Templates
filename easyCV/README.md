@@ -2,9 +2,9 @@
 -------------------------
 -------------------------
 
-This documents is intended to be one-page, concise, and quick to fill out.  The basic layout of this document is defined by three sectors: header, sidebar, and main.
+This document is intended to be one-page, concise, and quick to fill out.  The basic layout of this document is defined by three sectors: header, sidebar, and main.
 
-The LaTeX for these documents is intended to be accessible to those without extensive experience in LaTeX or computer programming.
+These documents are intended to be accessible to those without extensive experience in LaTeX or computer programming.
 
 ### Header
 -------------------------
@@ -16,7 +16,7 @@ The header sector is defined by a series of commands intended to be invoked at t
     \address{Street Address}
     \website{Web Url}
 
-It is possible to nest additional commands within the arguments of the commands above.  For example, if your address is taking up too much space, you could use.
+It is possible to nest additional commands within the arguments of the commands above.  For example, if your address is taking up too much space, you could use the following.
 
     \address{\small{Street Address}}
 
@@ -30,7 +30,7 @@ The sidebar sector comprises the column on the left-hand side of the document an
     *insert desired text here*
     \end{sidebar}
 
-As with all LaTeX commands the argument in square brackets is optional.  If the argument is omitted the sector title defaults to Skills.  However, the font size must be specified.  Font size should be chosen so that the sidebar fills the entire length of the page.  
+As with all LaTeX commands, the argument in square brackets is optional.  The sector title defaults to Skills.  The font size however, must be specified.  Font size should be chosen so that the sidebar fills the entire length of the page.  
 
 Within the sidebar environment you can invoke the standard section command.
 
@@ -50,8 +50,8 @@ The main sector comprises the body of the resume and is defined by its own envir
     
     \subsection{SubSection Title}{Dates/Location of Work}
     *Specific job information*
-    What were your duties, what skills have you acquired as a
-    result of your work
+    What were your duties, and what skills have you acquired as a
+    result of your work?
     
     \end{main}
 
@@ -72,7 +72,7 @@ This environment features smaller bullet points and reduced list spacing, ensuri
 # EasyCover
 -------------------------
 -------------------------
-This cover letter is also intended to be easy to use, and is formatted like the CV.  There are two sectors: header and a main.
+This cover letter is also intended to be easy to use, and is formatted like the CV.  There are two sectors: header and main.
 
 
 ### Header
@@ -86,7 +86,7 @@ The name command is similar to the in the CV, but the other commands are replace
     
 The change made to \name allows an additional optional argument.  Job Title will be displayed below your name in the header.
 
-Again it is possible to nest commands within \from or \to.  In the example cover letter you can see I have used \break to place my address of multiple lines.
+Again it is possible to nest commands within \from or \to.  In the example cover letter you can see I have used \break to write my address on multiple lines.
 
 
 ### Main
