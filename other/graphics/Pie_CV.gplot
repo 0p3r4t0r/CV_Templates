@@ -1,0 +1,61 @@
+#Produced by 0p3r4t0r
+#Intended for use with CV_Templates
+#
+#	08/11/2016
+#
+############# Square Pie Chart #############
+
+set terminal pngcairo size 1000,1000
+set output "PieChart_CV.png"
+set title "Traits"
+
+set lmargin 0
+set rmargin 0
+set tmargin 0
+set bmargin 0
+
+unset tics
+unset key
+#Skills by percentage
+skill1=55
+skill2=15
+skill3=15
+skill4=15
+
+#Pie Chart Radius
+r=0.95
+set xrange [-(r+.1):r+.1]
+set yrange [-(r+.1):r+.1]
+labelr=0.65*r
+
+#Circle Arcs in Degrees and Radians
+deg1=(skill1*360/100);		rad1=deg1*pi/180
+deg2=(deg1 + skill2*360/100);	rad2=skill2*2*pi/100
+deg3=(deg2 + skill3*360/100);	rad3=skill3*2*pi/100
+deg4=(deg3 + skill4*360/100);	rad4=skill3*2*pi/100
+
+#Create the pieces of the pie
+border_width=3 #border width
+set style fill solid border rgb "black"
+
+set obj 1 circle  arc [  0   : deg1 ]  lw border_width fc rgb "purple" size r
+set obj 2 circle  arc [ deg1 : deg2 ]  lw border_width fc rgb "green" size r
+set obj 3 circle  arc [ deg2 : deg3 ]  lw border_width fc rgb "yellow" size r
+set obj 4 circle  arc [ deg3 : deg4 ]  lw border_width fc rgb "red" size r
+
+#Label Locations
+x1=(labelr*cos(rad1/2)); y1=(labelr*sin(rad1/2))
+x2=(labelr*cos(rad1 + rad2/2)); y2=(labelr*sin(rad1 + rad2/2))
+x2=(labelr*cos(rad1 + rad2/2)); y3=(labelr*sin(rad1 + rad2/2))
+x3=(labelr*cos(rad1 + rad2 + rad3/2)); y3=(labelr*sin(rad1 + rad2 + rad3/2))
+x4=(labelr*cos(rad1 + rad2 + rad3 + rad4/2)); y4=(labelr*sin(rad1 + rad2 + rad3 + rad4/2))
+
+#Name the sections of the pie
+set label 1 "Humanity" font "Courier,35" at x1,y1 offset -8,-3
+set label 2 "Peace" font "Courier Bold,35" at x2,y2 offset -8,0 
+set label 3 "Kindness" font "Courier Oblique,35" at x3,y3 offset -8,0
+set label 4 "Excitement" font "Courier Bold Oblique,35" at x4,y4 offset -13,2
+
+#Generate a blank plot to put the pieces on
+unset border
+plot 1/0
