@@ -1,10 +1,10 @@
+These documents are intended to be accessible to those without extensive experience in LaTeX or computer programming.
+
 # EasyCV
 -------------------------
 -------------------------
 
 This document is intended to be one-page, concise, and quick to fill out.  The basic layout of this document is defined by three sectors: header, sidebar, and main.
-
-These documents are intended to be accessible to those without extensive experience in LaTeX or computer programming.
 
 ### Header
 -------------------------
