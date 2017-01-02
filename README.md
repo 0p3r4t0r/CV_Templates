@@ -1,7 +1,8 @@
 #CV Templates
 Here is a Latex resume template that is intended to be easy to fill out, even if you don't have very much experience with Latex.  Below I have also included a guide for writing Latex in Japanese.  I needed to be able to type a resume in Japanese, but could find no clear guides on getting latex to compile Japanese text smoothly, so I made one for myself and have left it below.
 
-While attempting to edit my resume on macOS I ran into significant problems rendering Japanese with texmaker.  If you try to type Japanese in the IDE environment all you will be able to see is a series of small rectangular boxes.  Documents will compile fine, and if you open the .tex file with another editor (e.g. vim) the Japanese will be there.  To get around this I switched over to TeXstudio.  I've prepared a [macOS guide](#how-to-latex-in-japanese-macos) as well.
+## !! MAC USERS
+While attempting to edit my resume on macOS I ran a problem rendering Japanese with texmaker.  Specifically, when typing Japanese in the IDE environment you see a series of small rectangular boxes in place of Japanese characters.  Documents will compile fine, and if you open the .tex file with another editor (e.g. vim) the Japanese will be there.  In the end I discovered a workaround, and  I've prepared a [macOS guide](#how-to-latex-in-japanese-macos) as well.
 
 
 How To LaTeX in Japanese (Ubuntu)
