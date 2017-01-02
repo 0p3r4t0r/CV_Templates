@@ -5,7 +5,7 @@ Here is a Latex resume template that is intended to be easy to fill out, even if
 How To LaTeX in Japanese (Ubuntu)
 -------------------------
 -------------------------
-When I was first starting this project I had a great deal of trouble trying to get LaTeX to compile in Japanese.  I run ElementaryOS which is built on Ubuntu LTS, so the guide below should work for any Ubuntu-based distributions of linux.  This guide assumes that you already have Japanese typing enabled on your system. At the end of the guide I will include an example of a LaTeX template that you can use for Japanese.   
+When I was first starting this project I had a great deal of trouble trying to get LaTeX to compile my resume in Japanese.  I run ElementaryOS which is built on Ubuntu LTS, so the guide below should work for any Ubuntu-based distributions of linux.  This guide assumes that you already have Japanese typing enabled on your system. At the end of the guide I will include an example of a LaTeX template that you can use for Japanese.   
 
 A Step-by-Step Guide
 -------------------------
@@ -49,3 +49,5 @@ A Step-by-Step Guide
         \begin{document}
         何かを書きなさい。
         \end{document}
+
+[Back to top](#CV_Templates)
