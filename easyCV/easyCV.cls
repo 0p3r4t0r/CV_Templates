@@ -103,14 +103,3 @@ tmargin=2.5cm,bmargin=2.5cm					%Document margins
 }{%
 	\end{itemize}
 }
-
-%----------------Images---------------%
-%Graphics path defined in package section
-\newcommand{\image}[2][scale=1.0]{
-	\vspace{0.5cm}
-	\includegraphics[#1]{#2}				%Just the graphics command with extra spacing
-	\vspace{0.5cm}
-}
-		
-	
-
