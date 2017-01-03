@@ -11,9 +11,7 @@
 
 %---------Required Packages-----------%
 \RequirePackage[absolute,overlay]{textpos}			%Defines the textblock environment
-\RequirePackage[
-tmargin=2.5cm,bmargin=2.5cm					%Document margins
-]{geometry}
+\RequirePackage[tmargin=2.5cm,bmargin=2.5cm]{geometry}		%Slim the top and bottom margins
 \RequirePackage{enumitem}
 \RequirePackage{graphicx}
 \graphicspath{ {./easy.icons/} }
