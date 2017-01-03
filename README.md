@@ -54,9 +54,18 @@ A Step-by-Step Guide
         \end{document}
 
 
+[Back to top](#cv-templates)
+
+
+
 How To LaTeX in Japanese (macOS)
 -------------------------
 -------------------------
+At the time writing I am running macOS Sierra Version 10.12.2 and am using the MacTex-2016 distribution.  My Texmaker is version 4.5.  This is less a guide on how to type Japanese and more a solution a problem with Texmaker.  I couldn't find a solution online, but after a couple days of frustration I resolved the issue and created the guide you see below.
+
+A Step-by-Step Guide
+-------------------------
+
 1.  There are many different ways you could go about compiling LaTeX documents in Japanese.  For the sake of this example I'll be using PDFLaTeX because the code is simple and fairly easy to understand.  So before you try out the code, go ahead and switch your compiler to PDFLaTeX.
 
 ![macOS PDFLaTeX](./other/JPLatexPics/macOS/pdfLaTeXmode.png)
