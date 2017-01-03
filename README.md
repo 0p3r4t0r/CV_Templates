@@ -57,7 +57,7 @@ A Step-by-Step Guide
 How To LaTeX in Japanese (macOS)
 -------------------------
 -------------------------
-1.  There are many different ways you could go about compiling $\LaTeX$ documents in Japanese.  For the sake of this example I'll be using PDFLaTeX.  So before you try out the code, go ahead and switch your compiler to PDFLaTeX.
+1.  There are many different ways you could go about compiling LaTeX documents in Japanese.  For the sake of this example I'll be using PDFLaTeX because the code is simple and fairly easy to understand.  So before you try out the code, go ahead and switch your compiler to PDFLaTeX.
 
 ![macOS PDFLaTeX](./other/JPLatexPics/macOS/pdfLaTeXmode.png)
 
