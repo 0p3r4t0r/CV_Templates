@@ -14,7 +14,7 @@
 \RequirePackage[tmargin=2.5cm,bmargin=2.5cm]{geometry}		%Slim the top and bottom margins
 \RequirePackage{enumitem}
 \RequirePackage{graphicx}
-\graphicspath{ {./easy.icons/} }
+\graphicspath{ {./easyCV.icons/} }
 
 
 
