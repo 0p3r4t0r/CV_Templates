@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 FEB 2017 01:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 FEB 2017 02:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -753,6 +753,10 @@ File: UTF8.enc 2015/04/18 4.8.4
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
 )
+Overfull \hbox (12.38065pt too wide) in paragraph at lines 28--37
+[][] 
+ []
+
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./CVzy.
@@ -763,33 +767,34 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 3888 strings out of 493014
- 51688 string characters out of 6133351
- 116521 words of memory out of 5000000
- 7231 multiletter control sequences out of 15000+600000
- 30910 words of font info for 119 fonts, out of 8000000 for 9000
+ 3902 strings out of 493014
+ 51862 string characters out of 6133351
+ 117599 words of memory out of 5000000
+ 7242 multiletter control sequences out of 15000+600000
+ 31523 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,34p,249b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,34p,249b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjhira.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkata.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkb.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/wadalab/dmj/dmjkc.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/wadalab/dmj/dmjkd.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/wadalab/dmj/dmjke.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/wad
-alab/dmj/dmjkf.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/
-dmjkg.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkh.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjki.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkj.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkk.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/wadalab/dmj/dmjkl.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/wadalab/dmj/dmjroma.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/wadalab/dmj/dmjsy.pfb>
-Output written on CVzy.pdf (1 page, 88180 bytes).
+cal/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjka.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkata.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/wadalab/dmj/dmjkb.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/wadalab/dmj/dmjkc.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/wadalab/dmj/dmjkd.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/wad
+alab/dmj/dmjke.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/
+dmjkf.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkg.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkh.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjki.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkj.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/wadalab/dmj/dmjkk.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/wadalab/dmj/dmjkl.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/wadalab/dmj/dmjroma.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/wad
+alab/dmj/dmjsy.pfb>
+Output written on CVzy.pdf (1 page, 90470 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

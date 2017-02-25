@@ -65,11 +65,16 @@
 }
 
 %---------------------Body------------------%
-\newenvironment{body}
+\newenvironment{body}[1][1.25]
 {%
 	\begin{textblock}{19.0}(1.5,8.75)
 	\begin{jp}
+		\begin{spacing}{#1}
+		
+		\newcolumntype{Y}{>{\centering}m{1.5cm}}
+		\newcolumntype{M}{>{\centering}m{0.75cm}}
 	}{%
+		\end{spacing}
 	\end{jp}
 	\end{textblock}
 }
