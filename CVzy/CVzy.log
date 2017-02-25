@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JAN 2017 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 FEB 2017 01:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -105,10 +105,41 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen119
 \Gin@req@width=\dimen120
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen121
+\extrarowheight=\dimen122
+\NC@list=\toks17
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen123
+\lightrulewidth=\dimen124
+\cmidrulewidth=\dimen125
+\belowrulesep=\dimen126
+\belowbottomsep=\dimen127
+\aboverulesep=\dimen128
+\abovetopsep=\dimen129
+\cmidrulesep=\dimen130
+\cmidrulekern=\dimen131
+\defaultaddspace=\dimen132
+\@cmidla=\count91
+\@cmidlb=\count92
+\@aboverulesep=\dimen133
+\@belowrulesep=\dimen134
+\@thisruleclass=\count93
+\@lastruleclass=\count94
+\@thisrulewidth=\dimen135
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
@@ -498,7 +529,7 @@ Now handling font encoding C62 ...
 LaTeX Info: Redefining \selectfont on input line 755.
 \CJK@indent=\box28
 )
-\ruby@width=\dimen121
+\ruby@width=\dimen136
 ))
 (./CVzy.aux)
 \openout1 = `CVzy.aux'.
@@ -616,17 +647,17 @@ LaTeX Font Info:    ... okay on input line 3.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
-\scratchdimen=\dimen122
+\scratchcounter=\count95
+\scratchdimen=\dimen137
 \scratchbox=\box29
-\nofMPsegments=\count92
-\nofMParguments=\count93
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count94
-\MPscratchDim=\dimen123
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks20
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen138
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
+\everyMPtoPDFconversion=\toks21
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -696,13 +727,32 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <14.92815> not available
 File: ./CVzy.icons/./poem.png Graphic file (type png)
 
 <use ./CVzy.icons/./poem.png>
-Package pdftex.def Info: ./CVzy.icons/./poem.png used on input line 16.
-(pdftex.def)             Requested size: 120.92252pt x 142.26154pt.
+Package pdftex.def Info: ./CVzy.icons/./poem.png used on input line 15.
+(pdftex.def)             Requested size: 135.1487pt x 149.37424pt.
 
-Overfull \hbox (5.4949pt too wide) in paragraph at lines 16--16
+Overfull \hbox (12.93123pt too wide) in paragraph at lines 15--15
 [][] 
  []
 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 18.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./CVzy.
@@ -713,24 +763,33 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 3596 strings out of 493014
- 47406 string characters out of 6133351
- 112616 words of memory out of 5000000
- 7025 multiletter control sequences out of 15000+600000
- 12424 words of font info for 48 fonts, out of 8000000 for 9000
+ 3888 strings out of 493014
+ 51688 string characters out of 6133351
+ 116521 words of memory out of 5000000
+ 7231 multiletter control sequences out of 15000+600000
+ 30910 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,5n,34p,249b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,34p,249b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkata.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkf.pfb></usr/local/texli
+/usr/local/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjhira.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkata.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkb.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/wadalab/dmj/dmjkc.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/wadalab/dmj/dmjkd.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/wadalab/dmj/dmjke.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/wad
+alab/dmj/dmjkf.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/
+dmjkg.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkh.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjki.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkj.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/wadalab/dmj/dmjkk.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/wadalab/dmj/dmjkl.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/wadalab/dmj/dmjsy.pfb>
-Output written on CVzy.pdf (1 page, 57897 bytes).
+/fonts/type1/wadalab/dmj/dmjroma.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/wadalab/dmj/dmjsy.pfb>
+Output written on CVzy.pdf (1 page, 88180 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
