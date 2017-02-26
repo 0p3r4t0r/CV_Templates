@@ -13,11 +13,11 @@
 \RequirePackage[absolute,overlay]{textpos}			%Defines the textblock environment
 \TPGrid{22}{30}													%Define a placement grid for texpos in centimeters
 \RequirePackage[margin=1.5cm]{geometry}			%Set document margins
+\RequirePackage{nopageno}								%Eliminate page numbers
 \RequirePackage{graphicx}									%Pictures
 \graphicspath{ {./CVzy.icons/} }
 \RequirePackage{setspace}				%Line spacing
 \RequirePackage{array}						%Tables
-\RequirePackage{booktabs}				%Used for Horizontal Tabs
 \RequirePackage[utf8]{inputenc}			%Character input in UTF8
 \RequirePackage[CJK]{ruby}				%Insert fuirgana
 \renewcommand\rubysep{0.1ex}
@@ -34,11 +34,13 @@
 }
 
 %-----------------Header------------------%
-\newenvironment{name}[1][履歴書]
+\newenvironment{name}[1][\today]
 {%
-	\begin{textblock}{14.5}(1.5,1.5)
+	\begin{textblock}{14.0}(1.5,1.5)
 	\begin{jp}
-		\huge{#1}
+		\huge{履歴書}  \hfill \normalsize{#1}
+		\newline	 \newline	
+		\huge
 	}{%
 	\end{jp}
 	\end{textblock}
@@ -55,7 +57,7 @@
 %---------------------Info------------------%
 \newenvironment{info}[1][1.25]
 {%
-	\begin{textblock}{14.5}(1.5,5.25)
+	\begin{textblock}{14.0}(1.5,5.25)
 	\begin{jp}
 		\begin{spacing}{#1}
 	}{%
@@ -67,6 +69,7 @@
 %---------------------Body------------------%
 \newenvironment{body}[1][1.25]
 {%
+	\newcommand{\tab}{\hspace{4ex}}
 	\begin{textblock}{19.0}(1.5,8.75)
 	\begin{jp}
 		\begin{spacing}{#1}
