@@ -59,8 +59,7 @@
 	}
 	\begin{textblock}{4.5}(1.0, 2.85)
 		\begin{flushleft}
-			\textbf{\Large{#1}}
-			\hrule height 1pt width 5.5cm
+			\hbox{\textbf{\Large{#1}}}\kern2pt\hrule\kern4pt
 			\fontsize{#2}{#2}\selectfont
 	}{%
 		\end{flushleft}
@@ -72,18 +71,14 @@
 {%
 	\def\@mainfontsize{#1}
 	\renewcommand{\section}[1]{
-		\vspace{0.5cm}
-		\textbf{\Large{##1}}
-		\vspace{0.05cm}
-		\hrule height 1.5pt
-		\vspace{0.15cm}
-
+		\hbox{\textbf{\Large{##1}}}\kern2pt\hrule
 	}
 	\renewcommand{\subsection}[2]{
 		\vspace{0.35cm}
-		\textbf{##1} \hfill \fontsize{6pt}{6pt}\selectfont{##2} \hrule width \textwidth
-		\vspace{0.1cm}
+		\textbf{##1} \hfill \fontsize{6pt}{6pt}
+		\hbox{\selectfont{##2}}
 		\fontsize{\@mainfontsize}{\@mainfontsize}\selectfont
+		\kern2pt\hrule\kern4pt
 		\break
 	}	
 	\begin{textblock}{9.0}(6.0, 3.0)
