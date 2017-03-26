@@ -71,14 +71,15 @@
 {%
 	\def\@mainfontsize{#1}
 	\renewcommand{\section}[1]{
+		\vspace{5mm}
 		\hbox{\textbf{\Large{##1}}}\kern2pt\hrule
 	}
 	\renewcommand{\subsection}[2]{
-		\vspace{0.35cm}
+		\vspace{3.5mm}
 		\textbf{##1} \hfill \fontsize{6pt}{6pt}
 		\hbox{\selectfont{##2}}
+		\vspace{0.5mm}\hrule\vspace{2.0mm}
 		\fontsize{\@mainfontsize}{\@mainfontsize}\selectfont
-		\kern2pt\hrule\kern4pt
 		\break
 	}	
 	\begin{textblock}{9.0}(6.0, 3.0)
@@ -91,7 +92,7 @@
 %-----------List Entry Type-----------%
 \newenvironment{mainlist}
 {%
-	\renewcommand\labelitemi{{\boldmath$\cdot$}}
+	\renewcommand\labelitemi{{\boldmath$\cdot$}}	
 	\begin{itemize}[topsep=0ex,leftmargin=*,itemsep=0.1cm]
 }{%
 	\end{itemize}
