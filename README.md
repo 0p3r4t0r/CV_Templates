@@ -13,7 +13,7 @@ When I was first starting this project I had a great deal of trouble trying to g
 A Step-by-Step Guide
 -------------------------
 1. Install Texlive and Texmaker if you haven't already.
-    
+
 	sudo-apt-get texlive texmaker
 
 2. Now we need to install some additional packages to support Japanese (cjk stands for ChineseJapansesKorean). 
