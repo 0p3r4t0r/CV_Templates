@@ -1,4 +1,4 @@
-#CV Templates
+# CV Templates
 Here is a Latex resume template that is intended to be easy to fill out, even if you don't have very much experience with Latex.  Below I have also included a guide for writing Latex in Japanese.  I needed to be able to type a resume in Japanese, but could find no clear guides on getting latex to compile Japanese text smoothly, so I made one for myself and have left it below.
 
 ###  Trouble on macOS 
@@ -12,13 +12,13 @@ When I was first starting this project I had a great deal of trouble trying to g
 
 A Step-by-Step Guide
 -------------------------
-1. Install Texmaker.
+1. Install Texlive and Texmaker if you haven't already.
     
-        sudo-apt-get install texmaker
+        sudo-apt-get texlive texmaker
 
-2. Add Xetex.  This allows for unicode input, so LaTeX can handle Japanese typing. 
+2. Now we need to install some additional packages to support Japanese (cjk stands for ChineseJapansesKorean). 
 
-         sudo apt-get install texlive-xetex
+	sudo apt-get install texlive-lang-cjk
 
 3. Open Texmaker, either by searching for it in applications, or by typing texmaker into your terminal.  On the toolbar at the top click the drop-down menu next to where it says Quick Build and select XeLaTex as in the picture below.  Now you're ready to write and compile a document.
 
