@@ -14,11 +14,11 @@ A Step-by-Step Guide
 -------------------------
 1. Install Texlive and Texmaker if you haven't already.
 
-	sudo-apt-get texlive texmaker
+        sudo-apt-get texlive texmaker
 
 2. Now we need to install some additional packages to support Japanese (cjk stands for ChineseJapansesKorean). 
 
-	sudo apt-get install texlive-lang-cjk
+        sudo apt-get install texlive-lang-cjk
 
 3. Open Texmaker, either by searching for it in applications, or by typing texmaker into your terminal.  On the toolbar at the top click the drop-down menu next to where it says Quick Build and select XeLaTex as in the picture below.  Now you're ready to write and compile a document.
 
