@@ -1,17 +1,37 @@
 # CV Templates
-Here is a Latex resume template that is intended to be easy to fill out, even if you don't have very much experience with Latex.  Below I have also included a guide for writing Latex in Japanese.  I needed to be able to type a resume in Japanese, but could find no clear guides on getting latex to compile Japanese text smoothly, so I made one for myself and have left it below.
-
-###  Trouble on macOS 
-While attempting to edit my resume on macOS I ran a problem rendering Japanese with texmaker.  Specifically, when typing Japanese in the IDE environment you see a series of small rectangular boxes in place of Japanese characters.  Documents will compile fine, and if you open the .tex file with another editor (e.g. vim) the Japanese will be there.  In the end I discovered a workaround, and  I've prepared a [macOS guide](#how-to-latex-in-japanese-macos) as well.
+A quick and easy LaTeX resume template. This repository also incldes guidlines for compiling a latex document in Japanese.
 
 
-How To LaTeX in Japanese (Ubuntu)
+### Table of Contents
+* How to LaTeX in Japanese
+    * [Arch Linux (2019)](#arch-2019) 
+    * [Ubuntu (2016)](#ubuntu-2016)
+    * [MacOS (2016)](#macos-2016)
+
+
+Arch (2019)
 -------------------------
 -------------------------
-When I was first starting this project I had a great deal of trouble trying to get LaTeX to compile my resume in Japanese.  I run ElementaryOS which is built on Ubuntu LTS, so the guide below should work for any Ubuntu-based distributions of linux.  This guide assumes that you already have Japanese typing enabled on your system. At the end of the guide I will include an example of a LaTeX template that you can use for Japanese.   
+The steps for arch are the same as those for [Ubuntu](#ubuntu-2016). However, you'll need to install Japanese fonts. There are several font pacakges for Japanese available, but the `otf-ipafont` package worked for me without any fuss. 
 
-A Step-by-Step Guide
+1. Install Japanese fonts. Please refer to the [Arch Wiki](https://wiki.archlinux.org/index.php/Fonts#Japanese) for more details.
+
+        pacman -S otf-ipafont
+
+2. Follow the steps outlined in the [Ubuntu (2016)](#ubuntu-2016) section of this guide.
+
+3. Comple the document from the command line by running...
+
+        xelatex easyCV.tex
+
+
+Ubuntu (2016)
 -------------------------
+-------------------------
+I run ElementaryOS which is built on Ubuntu LTS, so the guide below should work for any Ubuntu-based distributions of linux.  
+
+See the end of this section for a simple LaTeX template that you can use for Japanese.
+
 1. Install Texlive and Texmaker if you haven't already.
 
         sudo-apt-get texlive texmaker
@@ -58,13 +78,10 @@ A Step-by-Step Guide
 
 
 
-How To LaTeX in Japanese (macOS)
+MacOS (2016)
 -------------------------
 -------------------------
-At the time writing I am running macOS Sierra Version 10.12.2 and am using the MacTex-2016 distribution.  My Texmaker is version 4.5.  This is less a guide on how to type Japanese and more a solution a problem with Texmaker.  I couldn't find a solution online, but after a couple days of frustration I resolved the issue and created the guide you see below.
-
-A Step-by-Step Guide
--------------------------
+At the time of writing I am running macOS Sierra Version 10.12.2 and am using the MacTex-2016 distribution.  My Texmaker is version 4.5.  This is less a guide on how to type Japanese and more a solution a problem with Texmaker.  I couldn't find a solution online, but after a couple days of frustration I resolved the issue and created the guide you see below.
 
 1.  There are many different ways you could go about compiling LaTeX documents in Japanese.  For the sake of this example I'll be using PDFLaTeX because the code is simple and fairly easy to understand.  So before you try out the code, go ahead and switch your compiler to PDFLaTeX.
 
