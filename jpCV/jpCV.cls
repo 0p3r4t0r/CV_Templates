@@ -22,6 +22,9 @@
 \RequirePackage[CJK]{ruby}				        %Insert fuirgana
 \renewcommand\rubysep{0.1ex}
 \renewcommand{\rubysize}{0.6}
+\RequirePackage{xcolor}
+\definecolor{tablesec}{gray}{0.8}           %Define new colors
+\RequirePackage{colortbl}                       %Color a row
 
 
 %-------Additional Configuration-------%
@@ -66,7 +69,7 @@
 }
 
 %---------------------Body------------------%
-\newenvironment{body}[1][1.25]
+\newenvironment{body1}[1][1.25]
 {%
     \newcommand{\tab}{\hspace{4ex}}
     \begin{textblock}{19.0}(1.5,8.75)
@@ -78,4 +81,16 @@
         \end{spacing}
     \end{jp}
     \end{textblock}
+}
+
+\newenvironment{body2}[1][1.25]
+{%
+    \newcommand{\tab}{\hspace{4ex}}
+    \begin{jp}
+        \begin{spacing}{#1}
+        \newcolumntype{Y}{>{\centering}m{1.5cm}}
+        \newcolumntype{M}{>{\centering}m{0.75cm}}
+    }{%
+        \end{spacing}
+    \end{jp}
 }
