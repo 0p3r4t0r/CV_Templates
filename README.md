@@ -22,7 +22,7 @@ The steps for arch are the same as those for [Ubuntu](#ubuntu-2016). However, yo
 
 3. Comple the document from the command line by running...
 
-        xelatex easyCV.tex
+        pdflatex jpCV.tex
 
 
 Ubuntu (2016)
