@@ -75,8 +75,8 @@
     \begin{textblock}{19.0}(1.5,8.75)
     \begin{jp}
         \begin{spacing}{#1}
-        \newcolumntype{Y}{>{\centering}m{1.5cm}}
-        \newcolumntype{M}{>{\centering}m{0.75cm}}
+        \newcolumntype{Y}{>{\centering}m{1.7cm}}
+        \newcolumntype{M}{>{\centering}m{0.55cm}}
     }{%
         \end{spacing}
     \end{jp}
@@ -88,8 +88,8 @@
     \newcommand{\tab}{\hspace{4ex}}
     \begin{jp}
         \begin{spacing}{#1}
-        \newcolumntype{Y}{>{\centering}m{1.5cm}}
-        \newcolumntype{M}{>{\centering}m{0.75cm}}
+        \newcolumntype{Y}{>{\centering}m{1.7cm}}
+        \newcolumntype{M}{>{\centering}m{0.55cm}}
     }{%
         \end{spacing}
     \end{jp}
