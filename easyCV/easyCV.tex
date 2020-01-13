@@ -1,85 +1,132 @@
 \documentclass[letterpaper]{easyCV}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+}
 
 \begin{document}
-%\thispagestyle{empty}		%Get rid of page number on page 1 if you prefer.
+\thispagestyle{empty}		%Get rid of page number on page 1 if you prefer.
 \name{Your}{Name}
-\mail{YourEmail@mailbox.com}
-\phone{1-XXX-XXX-XXXX}
-\address{\small{Place where you live}}
+\mail{youremail@example.com}
+\phone{1-234-567-8910}
+\address{Where you live}\\
 \website{https://github.com/0p3r4t0r}
 
-\begin{sidebar}[Abilities]{10.5pt}
+\begin{sidebar}[Skills]{10.5pt}
 
-\section{Teaching}
-4 years total teaching experience, starting from the beginning of college 
-as a private tutor for chemistry and biology.
-I later began volunteer work with a local organization to provide tutoring
-to inner city students.  By Junior year I was hired as a teaching assistant in physics,
-where I worked until graduation.  My experience in teaching allows me to quickly discern
-a student's progress, and optimize my approach to ensure we maximize productivity.  
+\section{Programming}
+\begin{itemize}[leftmargin=*, nosep]
+    \setlength\itemsep{0.75ex}
+    \item \underline{Frameworks:} Bootstrap, Bulma, 
+        Django, Flask, Express
+    \item \underline{Markup:} HTML/CSS, \LaTeX, 
+        Markdown, ReStructured Text
+    \item \underline{Languages:} Bash, Javascript, 
+        Python, SQL
+    \item \underline{Tools:} Apache, git, Mod WSGI,
+        sftp, ssh
+\end{itemize}
 
+\section{Operating Systems}
+Windows, MacOS and any Arch/Ubuntu based Linux distribution. 
+Comfortable with the command-line for Unix systems.
+Limited experience with Windows PowerShell (fortunately).
+
+\section{Computer Maintenance}
+Diagnostics, debugging, hardware replacement.
+Data recovery and secure deletion, RAID setup.
 
 \section{Japanese}
-2 years of independent study.
-Have read 2 novels and am currently working through 
-the Japanese Edition of \textit{The Wonders of Physics}.  Though I understand that
-classes are to be conducted in English, my knowledge of the Japanese language provides
-an understanding of how the students are thinking, 
-and helps me better explain any corrections that need to be made.
+Fluent Japanese language ability developed over 
+5 years of study. Including 3 years living in 
+Japan with work experience at multiple Japanese
+companies. 
 
-\section{\LaTeX}       
-Highly proficient in the use of \LaTeX.  Able to create worksheets,
-notes, or other study aids.  Have 2 years experience and am able to write class files
-for custom document formatting.  
-
-\section{Computers}
-Comfortably familiar with OSX and Windows operating systems,
-as well as common linux distributions such as Ubuntu and Mint.
-Able to use a variety of communication software including Skype
-and Google Hangouts.  Comfortable working and speaking through a web-interface
-and likely able to help students solve technological problems
-related to microphone or camera use.  Experience with USB, linein, and internal hardware. 
+\section{Teaching}
+7 years total teaching experience with a focus in
+science and programming. Teaching experience 
+at all levels from kindergarten to college.
 
 \end{sidebar}
 
 \begin{main}[10pt]
 \section{Work Experience}
 
-\subsection{Teaching Assistant}{Aug. 20XX --- May 20XX at XXXXXXXXXX}
-\begin{mainlist}
-\item PHY101 \& PHY102 -- Algebra based course set intended for science students whose majors do not directly pertain to physics.  Covered classical mechanics to electrodynamics with a brief introduction to special relativity.
-\item PHY203 \& PHY204 -- Calculus based equivalent of the above.  Intended for Physicists and Engineers, these courses require a deeper understanding of the concepts, as well as the ability to derive equations independently.
-\end{mainlist}
+\subsection{Science Teacher}{Apr. 2018 --- Present 
+for Middle/High School}
+    \begin{mainlist}
+    \item \underline{Courses taught in English:} 
+        IT \& Society, Math 1, Science 1-3, Physics 1-2
+    \item \underline{Courses taught in Japanese:} 
+        IT \& Society, Math A, Math B
+    \end{mainlist}
 
-\subsection{Student Technologist}{Jun. 20XX --- Sept. 20XX at XXXXXXXXXX}
-\begin{mainlist}
-\item Assisted faculty with a variety of computer problems: repair of malfunctions, antivirus, hardware upgrades, etc. 
-\item Assembled and dismantled machines including internal components such as CD drives.
-\item Prepared teaching labs for student use by installing prerequisite software and ensuring uniform configurations across all machines.  Worked with DeepFreeze software to update machines and prevent students from making unauthorized changes.
-\end{mainlist}
+\subsection{Full Stack Developer}
+{Dec. 2018 --- Present}
+    \begin{mainlist}
+    \item Designed, created and am actively maintaining
+        a cirriculum management system: 
+        \href{https://kgisteam.com}
+        {https://kgisteam.com}. This site receives
+        anywhere from 20k-45k hits per month and is
+        built in Python-Django.
+    \end{mainlist}
 
-\subsection{Research Assistant}{May 20XX --- Aug. 20XX at XXXXXXXXX}
-\begin{mainlist}
-\item Aided faculty as needed in conducting research on various plant varieties.  Duties varied widely on a day-to-day basis.  Everything from caring for plants in the greenhouse, to producing agar plates for the cultivation of soil microbes.
-\item Work conditions were often outdoors, even in inclement weather.  Learned to work under a variety of conditions, ignoring distractions, while collecting data.
-\end{mainlist}
+\section{Undergraduate Work Experience}
+
+\subsection{Teaching Assistant}{Aug. 2014 --- May 2016
+at Some University}
+    \begin{mainlist}
+        \item PHY101 \& PHY102 -- Algebra based course
+            set intended for general science students:
+            classical mechanics, electrodynamics, 
+            special relativity.
+
+        \item PHY203 \& PHY204 -- Calculus based 
+            equivalent of the above for physics 
+            and engineering students.
+    \end{mainlist}
+
+\subsection{Student Technologist}{Jul. 2014 --- 
+Oct. 2015 at Some University}
+    \begin{mainlist}
+        \item Assisted faculty with computer problems:
+            repair of malfunctions, antivirus, hardware
+            upgrades, assembly and disassembly, data
+            recovery and deletion. 
+    \end{mainlist}
+
+\subsection{Undergraduate Researcher}{Oct 2014 ---
+Sept. 2015 at Some Lab}
+    \begin{mainlist}
+        \item Molecular dynamics simulations on MSU 
+            ICER supercomputing cluster using VMD and
+            CHARMM. Data analysis using Bash, Gnuplot
+            and Mathematica.
+        \item Results published in the 
+            journal Springer-Nature: 
+            \href{link-to-article}
+            {link-to-article}.
+    \end{mainlist}
+
+\section{Certificates}
+\begin{itemize}
+    \item Japanese Language Proficiency Test N1
+        (Aug. 2018)
+    \item Teaching Licenses for 
+        Science and Math (Mar. 2018)
+\end{itemize}
+
 
 \section{Education}
-\subsection{University}{Aug. 20XX --- May 20XX}
-\begin{mainlist}
-\item Bachelors of Science
-\item GPA at graduation: 
-\end{mainlist}
-
-\subsection{Future Goals}{Present}
-The fundamental question here is "What do I really want?"  I get the feeling that if I only knew the answer the rest of life would be simple.  Well, let's start with some easy goals for the time being.
-\vspace{2mm}
-\begin{mainlist}
-\item Become fluent in Japanese.
-\item  Continue to study physics
-\end{mainlist}
+\subsection{University}{Aug. 2012 --- May 2016}
+    \begin{mainlist}
+        \item Some University
+        \item Bachelors of Science in Physics (GPA 3.4)
+    \end{mainlist}
 
 \end{main}
 
-\footer[Write anything here, default is the date.]
+\footer
 \end{document}
